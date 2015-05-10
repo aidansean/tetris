@@ -1,0 +1,108 @@
+table#pentrisTable, table#previewTable{
+  background-color : white ;
+  border : 1px solid black ;
+  margin : auto ;
+  border-collapse : separate ;
+}
+table#previewTable{
+  border : 0px solid black ;
+}
+td{
+  padding : 0px ;
+}
+td.preview{
+  font-size   : 1px ;
+  line-height : 1px ;
+  padding : 0px ;
+}
+table#scoreStuff{
+  width : 100px ;
+  margin : auto ;
+  margin-top : 10px ;
+}
+th, td.scores{
+  text-align : center ;
+  font-family : arial , sans-serif ;
+  font-size : 10pt ;
+  width : 60px ;
+  background-color : gray ;
+  color : white ;
+  font-style : normal ;
+}
+td.scores{
+  background-color : white ;
+  color : black ;
+}
+p#controls{
+  font-size : 10pt ;
+  line-height : 12pt ;
+  font-family : arial , sans-serif ;
+  margin-left : 10px ;
+  margin-right : 10px ;
+  text-align : left ;
+}
+div#side{
+  padding : 2px ;
+  width : 150px ;
+  border : 1px solid black ;
+  background-color : white ;
+  float : left ;
+  clear : left ;
+  margin-top : 30px ;
+}
+div#playArea{
+  padding : 10px ;
+  width : 560px ;
+  float : right ;
+  clear : right ;
+  margin-top : 20px ;
+}
+div#highScoresBoard{
+  width  : 700px ;
+  margin : auto ;
+  height : 400px ;
+  clear : both ;
+  padding-top : 20px ;
+}
+table#highScoresBoardTable{
+  width : 350px ;
+  margin : auto ;
+}
+td.highScoresBoardCell{
+  background-color : #ff0000 ;  
+}
+p#disclaimer, p#aidan_disclaimer{
+  font-style : italic ;
+  font : 10pt times, serif ;
+  text-align : center ;
+}
+audio#audio{
+  display : none ;
+}
+div.tab_cell{
+  vertical-align : top ;
+}
+
+
+td.red     { background-color : #ffdddd ; border : 2px solid  #ff0000 ; color : #000000 ; }
+td.green   { background-color : #ddffdd ; border : 2px solid  #006600 ; color : #000000 ; }
+td.blue    { background-color : #ddddff ; border : 2px solid  #0000ff ; color : #000000 ; }
+td.cyan    { background-color : #ddeeee ; border : 2px solid  #00cccc ; color : #000000 ; }
+td.magenta { background-color : #ffddff ; border : 2px solid  #ff00ff ; color : #000000 ; }
+td.yellow  { background-color : #ffffdd ; border : 2px solid  #cccc00 ; color : #000000 ; }
+td.white   { background-color : #ffffff ; border : 2px solid  #000000 ; color : #000000 ; }
+td.pink    { background-color : #ff33ff ; border : 2px solid  #ff00ff ; color : #000000 ; }
+td.gray    { background-color : #dddddd ; border : 2px solid  #666666 ; color : #000000 ; }
+td.orange  { background-color : #ffcc99 ; border : 2px solid  #ff9933 ; color : #000000 ; }
+td.brown   { background-color : #cc9900 ; border : 2px solid  #996600 ; color : #000000 ; }
+td.lilac   { background-color : #ffccff ; border : 2px solid  #ff99ff ; color : #000000 ; }
+td.teal    { background-color : #99cccc ; border : 2px solid  #336666 ; color : #000000 ; }
+td.sky     { background-color : #ccffff ; border : 2px solid  #0099ff ; color : #000000 ; }
+td.olive   { background-color : #669966 ; border : 2px solid  #006633 ; color : #000000 ; }
+td.charcoal{ background-color : #999999 ; border : 2px solid  #000000 ; color : #000000 ; }
+td.beige   { background-color : #ffffcc ; border : 2px solid  #cc9966 ; color : #000000 ; }
+td.navy    { background-color : #0000cc ; border : 2px solid  #000066 ; color : #000000 ; }
+td.empty   { background-color : #ffffff ; border : 2px solid  #f4f4f4 ; color : #000000 ; }
+td.black   { background-color : #000000 ; border : 2px solid  #000000 ; color : #000000 ; }
+
+
