@@ -2,6 +2,7 @@
 $title = 'Block stacking' ;
 $js_scripts  = array('settings.js', 'functions.js') ;
 $stylesheets = array('style.css') ;
+include_once('project.php') ;
 include_once($_SERVER['FILE_PREFIX'] . '/_core/preamble.php') ;
 ?>
 <script type="text/ecmascript">

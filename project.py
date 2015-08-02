@@ -3,10 +3,13 @@ from project_module import project_object, image_object, link_object, challenge_
 p = project_object('tetris', 'Generic block stacking game')
 p.domain = 'http://www.aidansean.com/'
 p.path = 'tetris'
-p.preview_image_ = image_object('http://placekitten.com.s3.amazonaws.com/homepage-samples/408/287.jpg', 408, 287)
+p.preview_image    = image_object('%s/images/project.jpg'   %p.path, 150, 250)
+p.preview_image_bw = image_object('%s/images/project_bw.jpg'%p.path, 150, 250)
 p.folder_name = 'aidansean'
 p.github_repo_name = 'tetris'
 p.mathjax = False
+p.tags = 'Games'
+p.technologies = 'AJAX,CSS,HTML,JavaScript,MySQL,PHP'
 p.links.append(link_object(p.domain, 'tetris/', 'Live page'))
 p.introduction = 'This was my first serious Javascript project which was written some time in 2009.  I chose to write a Tetris clone because it was a well defined project that would teach me how to use Javascript.  In addition to Tetris I also made Tritris and Pentris to see how well balanced the three games are compared to each other.  It turns out that Tetris is about right, with Tritris being too easy and Pentris being too hard.'
 p.overview = '''The user plays the game with the arrow keys, and the game gets slowly faster as their score increases.  There is a MySQL and PHP backend to save scores on the server.  As much as possible, the three games have been harmonised so that they use the same page, the same Javascript library, and the same PHP page for interaction with the server.  This is outlined in <a href="http://aidansean.com/projects/?p=473">a previous post</a> where I discussed how the code was refactored.  This is one of my favourite projects, as it's one of the few "complete" projects that touches on almost all of Javascript, with some HTML, CSS, PHP, MySQL, httpxml, and cookies also thrown in there.  This project taught me so much about Javascript and was an excellent start with the language.'''
